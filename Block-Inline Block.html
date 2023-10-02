@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Block</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 4px;
+      }
+      .font {
+        font-family: arial;
+        font-weight: bold;
+      }
+      .name {
+        display: block;
+        margin-bottom: 2px;
+      }
+      .mail {
+        display: block;
+      }
+      p {
+        font-family: arial;
+        width: 230px;
+        display: inline-block;
+      }
+      /* Style for the search box */
+      .search-box {
+        display: flex;
+        border: 1px solid #ccc;
+        border-radius: 24px;
+        overflow: hidden;
+        width: 400px;
+        background-color: #fff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Style for the search input */
+      .search-input {
+        flex: 1;
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+      }
+
+      /* Style for the search icons */
+      .search-icons {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      }
+
+      /* Style for the search icon SVGs */
+      .search-icons svg {
+        width: 24px;
+        height: 24px;
+        fill: #555;
+        margin-right: 8px;
+      }
+
+      /* Style for the search button hover effect */
+      .search-box:hover {
+        border: 1px solid #357ae8;
+      }
+
+      .first,
+      .last {
+        display: inline-block;
+        margin-bottom: 2px;
+        height: 20px;
+      }
+      .email {
+        display: block;
+        width: 335px;
+        height: 20px;
+        margin-bottom: 2px;
+      }
+      .sign {
+        font-family: arial;
+        font-weight: bold;
+        color: azure;
+        width: 342px;
+        background-color: rgba(0, 102, 255, 0.819);
+        border: 0px;
+        height: 30px;
+        margin-bottom: 16px;
+        border-radius: 8px;
+      }
+      .pickup {
+        width: 212px;
+        display: block;
+        height: 30px;
+        background-color: rgb(235, 235, 235);
+        border: 0px;
+        padding-left: 8px;
+        margin-bottom: 4px;
+      }
+      .schedule {
+        margin-top: 8px;
+        height: 30px;
+        border: 0px;
+      }
+      .request {
+        margin-top: 6px;
+        color: antiquewhite;
+        background-color: black;
+        width: 100px;
+        height: 30px;
+        border: 0px;
+      }
+      .myntra {
+        width: 200px;
+        margin-left: 80px;
+        margin-bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <label class="font" for="">Ex. 1</label>
+    <input class="name" type="text" placeholder="Name" />
+    <input class="mail" type="text" placeholder="Email" />
+    <br />
+    <label class="font" for="">Ex. 2</label>
+    <p>
+      Thanks for chatting with our costumer support. would you like to take
+      quick survey ?
+    </p>
+    <button>Yes</button>
+    <button>No</button>
+    <br />
+    <label class="font" for="">Ex. 3</label>
+    <img class="myntra" src="Myntra.png" />
+    <div class="search-box">
+      <input
+        type="text"
+        class="search-input"
+        placeholder="Search Google or type a URL"
+      />
+      <div class="search-icons">
+        <img
+          src="googlemic_clr_24px.svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        />
+        <img src="lens_icon.svg" width="24" height="24" viewBox="0 0 24 24" />
+      </div>
+    </div>
+    <br />
+    <label class="font" for="">Ex. 4</label>
+    <input class="first" type="text" placeholder="First name" />
+    <input class="last" type="text" placeholder="Last name" />
+    <input class="email" type="text" placeholder="Email" />
+    <button class="sign">Sign Up</button>
+    <br />
+    <label class="font" for="">Ex. 5</label>
+    <h2 style="font-family: arial; margin-bottom: 10px">Request a ride now</h2>
+    <input class="pickup" type="text" placeholder="Enter pickup location" />
+    <input
+      class="pickup"
+      type="text"
+      placeholder="Enter destination location"
+    />
+    <button class="request">Request now</button>
+    <button class="schedule">Schedule for later</button>
+  </body>
+</html>

@@ -1,0 +1,324 @@
+body {
+  font-family: Arial;
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  margin: 11px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  margin: 0px;
+}
+
+div {
+  padding: 4px;
+  margin: 2px;
+  border-radius: 4px;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+div:hover {
+  opacity: 85%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  margin: 10px;
+  border: 1px solid gray;
+  justify-content: space-between;
+}
+
+.flex2 {
+  display: flex;
+  margin: 10px;
+  height: 50px;
+  border: 1px solid gray;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div1 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+  width: 200px;
+}
+
+.div2 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+  width: 75px;
+}
+
+.div3 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+  width: 50px;
+}
+
+.div4 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+  flex: 1;
+}
+
+.div5 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+  width: 75px;
+}
+
+.div6 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+  width: 75px;
+}
+
+.div7 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+  width: 75px;
+}
+
+.div8 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+  width: 75px;
+}
+
+.div9 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+  width: 75px;
+}
+
+.div10 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+}
+
+.div11 {
+  color: #fff;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+}
+
+.box {
+  height: 150px;
+  width: 350px;
+  margin: 10px;
+  border: 1px solid grey;
+}
+
+.flex3 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home {
+  font-size: 25px;
+}
+
+.dot14 {
+  width: 32px;
+  align-items: center;
+  border-radius: 25px;
+  text-align: center;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+}
+
+span {
+  font-size: 18px;
+  text-align: center;
+}
+
+.dot15 {
+  width: 26px;
+  align-items: center;
+  border-radius: 25px;
+  text-align: center;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+}
+
+.dot16 {
+  width: 26px;
+  align-items: center;
+  border-radius: 25px;
+  text-align: center;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 80%
+  );
+}
+
+.searchbox {
+  border-radius: 0px;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: red;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(255, 0, 0),
+    #1e00ff 50%
+  );
+}
+
+.searchbox:hover {
+  opacity: 100%;
+}
+
+.flex4 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex4:hover {
+  opacity: 100%;
+}
+
+.home2 {
+  font-weight: bold;
+  width: fit-content;
+  border-radius: 0px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.home2:hover {
+  cursor: pointer;
+  opacity: 100%;
+  border-bottom: 2px solid white;
+}
+
+.button {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  height: 34px;
+  width: 113px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: white;
+  opacity: 100%;
+  color: red;
+  cursor: pointer;
+}
+
+.search {
+  border-radius: 24px;
+  overflow: hidden;
+  width: 600px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.search:hover {
+  opacity: 100%;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.454);
+}
+
+#search {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  width: 600px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+.border {
+  border: 1px solid gray;
+  margin-bottom: 100px;
+  margin-left: 10px;
+}
+
+.border:hover {
+  opacity: 100%;
+}
