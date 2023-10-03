@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7d</title>
+  </head>
+  <body>
+    <button onclick="convertToFahrenheit(27);">Fahrenheit</button>
+    <button onclick="convertToCelsius(113)">Celsius</button>
+    <script>
+      function convertToFahrenheit(celsius) {
+        var Fahrenheit = (celsius * 9) / 5 + 32;
+        alert(`Fahrenheit ${Fahrenheit} F`);
+      }
+      function convertToCelsius(fahrenheit) {
+        var Celsius = ((fahrenheit - 32) * 5) / 9;
+        alert(`Celsius ${Celsius} C`);
+      }
+    </script>
+  </body>
+</html>

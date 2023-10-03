@@ -257,7 +257,7 @@ span {
 
 .home2 {
   font-weight: bold;
-  width: fit-content;
+  width: auto;
   border-radius: 0px;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
