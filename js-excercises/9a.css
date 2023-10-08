@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe-button {
+    color: white;
+    background: #000;
+    border: none;
+    font-weight: bold;
+    padding: 9px 16px;
+    border-radius: 20px;
+}
+
+.search-input {
+    padding: 8px 30px 8px 8px;
+    border: gray solid 1px;
+    border-radius: 0px;
+}
+
+.calculate-button {
+    padding: 8px;
+    border: transparent solid 1px;
+    border-radius: 0px;
+    margin-left: -6px;
+    color: white;
+    background-color: #000;
+}
+
+.calculate-button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="9a.css">
+    <title>8a</title>
+  </head>
+  <body>
+    <p style="font-size: 20px; font-weight: bold;">Youtube Subscribe Button</p>
+    <button onclick="subscribe();" class="js-button subscribe-button">Subscribe</button>
+    <p style="font-size: 20px; font-weight: bold">Amazon Shipping Calculator</p>
+    <p>No charges on products above Rs. 500 </p>
+    <p>Rs. 40 extra charges on products below Rs. 500 </p>
+    <input
+      placeholder="Cost of product"
+      class="js-cost-input search-input"
+      onkeydown="if (event.key === 'Enter') {
+        calculate();
+    }"
+    />
+    <button onclick="calculate()" class="calculate-button">Calculate</button>
+    <p class="js-total-cost"></p>
+    <script>
+      function calculate() {
+        const inputElement = document.querySelector(".js-cost-input");
+        let cost = Number(inputElement.value);
+        if (cost < 500) {
+          cost = cost + 40;
+        }
+        document.querySelector(".js-total-cost").innerHTML = `Rs. ${cost} /-`;
+      }
+
+      function subscribe() {
+        const buttonElement = document.querySelector(".js-button");
+        if (buttonElement.innerText === "Subscribe") {
+          buttonElement.innerHTML = "Subscribed";
+        } else {
+          buttonElement.innerHTML = "Subscribe";
+        }
+      }
+    </script>
+  </body>
+</html>
