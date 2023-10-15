@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="10a.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10a</title>
+  </head>
+  <body>
+    <button onclick="buttons()" class="game gaming">Gaming</button>
+    <button onclick="buttons()" class="music song">Music</button>
+    <button onclick="buttons()" class="art artist">Art</button>
+
+    <script>
+      function buttons() {
+        const buttonElement = document.querySelector(".game");
+        if (buttonElement.innerText === "Gaming") {
+          buttonElement.innerHTML = "Gaming ?";
+          buttonElement.classList.add('gaming');
+        } else {
+          buttonElement.innerHTML = "Gaming";
+          buttonElement.classList.remove('gaming');
+        }
+
+        // let buttonElement = document.querySelector(".music");
+        // if (buttonElement.innerText === "Music") {
+        //   buttonElement.innerHTML = "Music";
+        //   buttonElement.classList.add("songs");
+        // } else {
+        //   buttonElement.innerHTML = "Music";
+        //   buttonElement.classList.remove("songs");
+        // }
+
+        // let buttonElement = document.querySelector(".art");
+        // if (buttonElement.innerText === "Art") {
+        //   buttonElement.innerHTML = "Art";
+        //   buttonElement.classList.add("artist");
+        // } else {
+        //   buttonElement.innerHTML = "Art";
+        //   buttonElement.classList.remove("artist");
+        // }
+      }
+    </script>
+  </body>
+</html>

@@ -4,7 +4,7 @@ body {
 
 .subscribe-button {
     color: white;
-    background: #000;
+    background: rgb(199, 0, 0);
     border: none;
     font-weight: bold;
     padding: 9px 16px;
@@ -29,4 +29,9 @@ body {
 .calculate-button:hover {
     cursor: pointer;
     opacity: 80%;
+}
+
+.is-subscribed {
+    color: #000;
+    background-color: lightgrey;
 }
