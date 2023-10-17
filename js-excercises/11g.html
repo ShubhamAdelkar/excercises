@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>11g</title>
+  </head>
+  <body>
+    open console
+    <p class="js-newArrays"></p>
+    <script>
+      const array = [10, 20, 40, 40, 30];
+      const newArray = [];
+
+      for (let i = 0; i < array.length; i++) {
+        newArray.push(array[i] + 1);
+      }
+      document.querySelector(".js-newArrays").innerHTML = newArray;
+      console.log(newArray);
+    </script>
+  </body>
+</html>
