@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance Functions</title>
+  </head>
+  <body>
+    Open Console
+    <script>
+      const add = function () {
+        console.log(2 + 3);
+      };
+      function runTwice(fun) {
+        fun();
+        fun();
+      }
+      runTwice(function () {
+        console.log("12b");
+      });
+      runTwice(add);
+    </script>
+  </body>
+</html>

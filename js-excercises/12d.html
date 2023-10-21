@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance Functions</title>
+  </head>
+  <body>
+    <p>Click Button</p>
+
+    <button
+      onclick="start()"
+      class="js-button start"
+      style="font-size: 18px; padding: 6px 12px"
+    >
+      Start
+    </button>
+    <p class="js-para"></p>
+    <script>
+      function start() {
+        const button = document.querySelector(".js-button");
+
+        const para = document.querySelector(".js-para");
+
+        if (button.innerText === "Start" && para.innerText === "") {
+          button.innerHTML = "Loading...";
+          para.innerHTML = "Loading...";
+
+          setTimeout(function () {
+            button.innerHTML = "Finished!";
+            para.innerHTML = "Finished";
+          }, 1000);
+        } else {
+          button.innerHTML = "Start";
+          para.innerHTML = "";
+        }
+      }
+    </script>
+  </body>
+</html>

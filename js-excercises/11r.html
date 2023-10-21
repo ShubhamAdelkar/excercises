@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array & Lopps</title>
+  </head>
+  <body>
+    Open Console
+    <script>
+      function removeEgg(food) {
+        const result = [];
+        for (let i = 0; i < food.length; i++) {
+          if (food[i] === "egg") {
+            continue;
+          }
+          result.push(food[i]);
+        }
+        return result;
+      }
+      console.log(removeEgg(["egg", "rice", "apple", "egg"]));
+    </script>
+  </body>
+</html>

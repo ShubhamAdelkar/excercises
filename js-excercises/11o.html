@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array & Loops</title>
+  </head>
+  <body>
+    Open Console
+    <script>
+      let arrayString = ["hello", "world", "search", "bye"];
+      index = -1;
+      for (let i = 0; i < arrayString.length; i++) {
+        if (arrayString[i] === "search") {
+          index = i;
+        }
+      }
+      console.log(index);
+
+      words = ["not", "found"];
+      index = -1;
+      for (let i = 0; i < words.length; i++) {
+        if (words[i] === "search") {
+          index = i;
+        }
+      }
+      console.log(index);
+    </script>
+  </body>
+</html>

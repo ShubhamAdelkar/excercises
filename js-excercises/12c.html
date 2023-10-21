@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance Functions</title>
+  </head>
+  <body>
+    <p>Click Button</p>
+
+    <button
+      onclick="start()"
+      class="js-button start"
+      style="font-size: 18px; padding: 6px 12px"
+    >
+      Start
+    </button>
+    <script>
+      function start() {
+        const button = document.querySelector(".js-button");
+
+        setTimeout(function () {
+          button.innerHTML = "Finished!";
+        }, 3000);
+      }
+    </script>
+  </body>
+</html>
